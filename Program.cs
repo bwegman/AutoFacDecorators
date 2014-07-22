@@ -113,9 +113,13 @@ namespace Blup {
             builder.RegisterGeneric(typeof(Mapper<,>))
                 .As(typeof(IMapper<,>));
 
+            // Module 26
+
             builder
                 .RegisterType<MappingAdapter<Bol26.aanvragenWO, Bol26.aanvragenWOAntw, Bol27.aanvragenWO, Bol27.aanvragenWOAntw>>()
                 .AsImplementedInterfaces();
+
+            // Module 27
 
             builder
                 .RegisterType<MappingAdapter<Bol27.aanvragenWO, Bol27.aanvragenWOAntw, Bol28.aanvragenWO, Bol28.aanvragenWOAntw>>()
